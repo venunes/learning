@@ -1,0 +1,55 @@
+#header-nav {
+    background-color: #979591;
+    border-radius: 0;
+    border: 0;
+    height: 60px;
+  }
+
+  .navbar-header h1 {
+    font-family: 'Shadows Into Light', cursive;
+    color: #000000;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+
+  .container h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2.5em;
+    font-weight: bolder;
+  }
+  .jumbotron {
+    background-color: dimgray;
+    position: relative;
+    border: 20px solid white;
+   
+}
+  .jumbotron h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.7em;
+    font-weight: bold;
+  }
+.jumbotron p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    color: #000000;
+} 
+.jumbotron #beef {
+  padding-left: 15px;
+}
+
+
+#nav-list a {
+  color: #151c9f;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #ea1c1c;
+}
+#nav-list a span {
+  font-size: 2em;
+}
+.navbar-toggle 
