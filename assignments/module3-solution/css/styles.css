@@ -1,14 +1,11 @@
-#header-nav {
+.navbar {
     background-color: #979591;
-    border-radius: 0;
-    border: 0;
-    height: 60px;
   }
 
   .navbar-header h1 {
     font-family: 'Shadows Into Light', cursive;
     color: #000000;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
     margin-top: 0;
@@ -43,13 +40,21 @@
 
 
 #nav-list a {
+  margin-top: 5px;
   color: #151c9f;
   text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 #nav-list a:hover {
   background: #ea1c1c;
 }
-#nav-list a span {
-  font-size: 2em;
+
+#collapsable-nav {
+  position: relative;
+  z-index: 1;
 }
-.navbar-toggle 
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 15px;
+}
